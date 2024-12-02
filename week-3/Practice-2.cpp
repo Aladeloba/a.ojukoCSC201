@@ -6,5 +6,5 @@ int main() {
 	
 	// Printing elements of an array using  for each loop
 	for (int x: arr)
-		cout << x << endl;
+	cout << x << endl;
 }

@@ -1,9 +1,11 @@
 #include <iostream>
 using namespace std;
 
-int score = 60;
 
 int main() {
+	cout << "Input your score";
+	int score;
+	cin >> score;
 	if(score>=70 && score<=100) {
 		cout << "Grade A" << endl;
 		cout << "Excellent" << endl;}

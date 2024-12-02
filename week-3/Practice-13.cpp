@@ -8,7 +8,6 @@ int addition (int a, int b) {
 }
 
 int main() {
-	int z;
-	z = addition (5,3);
+	int z = addition (5,3);
 	cout << "The result is " << z;
 }
